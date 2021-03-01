@@ -1,0 +1,27 @@
+:root{
+  --red: #ff2424;
+  --pink: #ffa6a6;
+  --pink2: #ff6c6c;
+  --brown: #a26363;
+  --black: #242424;
+  --faded-txt-bkg-black: rgba(64, 64, 64,.4)
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.admin-login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
