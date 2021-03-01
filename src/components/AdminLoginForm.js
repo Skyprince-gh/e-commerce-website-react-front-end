@@ -12,7 +12,7 @@ const AdminLoginForm = () => {
   }
 
   return (
-    <div className="admin-login">
+    <div className= {adminStyles.adminLogin}>
       <form onSubmit={handleSignIn} className= {adminStyles.form + " animate__animated animate__fadeInDown" }>
         <h1 className="">Admin Panel</h1>
         {/* <p className= "">Don't have an account? 

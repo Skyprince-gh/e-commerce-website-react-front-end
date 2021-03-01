@@ -1,3 +1,14 @@
+.adminLogin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background: var(--hlg-red)
+}
+
 .form{
   background: linear-gradient();
   width: 50%;

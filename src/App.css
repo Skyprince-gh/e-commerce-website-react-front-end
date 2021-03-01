@@ -1,11 +1,4 @@
 .App {
-  text-align: center;
-  background: linear-gradient(
-    to right, 
-    var(--red),
-    var(--pink2),
-    var(--pink2),
-    var(--red)
-    );
+ 
 }
 

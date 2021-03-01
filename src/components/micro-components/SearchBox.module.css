@@ -1,0 +1,26 @@
+.searchBox{
+  height: 50px;
+  width: 70%;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px var(--shadow);  
+  display: flex;
+}
+
+.button{
+  background: transparent;
+  border: none;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  outline:none;
+  /* font-size: px */
+}
+
+.input{
+  background: transparent;
+  border: none;
+  display: inline-block;  
+  outline: none;
+  padding-left: 20px;
+}
