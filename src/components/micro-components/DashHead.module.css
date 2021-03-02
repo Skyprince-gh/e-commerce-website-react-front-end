@@ -1,0 +1,55 @@
+.grid{
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+
+}
+
+.logo{
+  display: flex;
+  width: 120px;
+  justify-content: space-around;
+  font-size: 16px;
+  color: var(--red)
+}
+
+
+.logoSpan{
+  display: block;
+  user-select: none;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.button{
+  height: 50px;
+  width: 180px;
+  border-radius: 25px;
+  border: none;
+  background: var(--red);
+  outline: none;
+  font-weight: bold;
+  color: var(--pink);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px
+}
+
+.button span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.button span *{
+  font-size: 24px
+}
+.button:hover {
+  background: var(--pink2);
+  color: var(--red)
+}

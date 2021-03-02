@@ -1,9 +1,10 @@
 import NavStyle from './PanelNav.module.css';
 import SearchBox from './SearchBox'
-import {Link} from 'react-router-dom'
+import {Link , NavLink} from 'react-router-dom'
 import GridIcon from '@material-ui/icons/Apps'
 
 const PanelNav = () => {
+  
   return ( 
     <nav className={NavStyle.nav}>
       <div className={NavStyle.logo}>
@@ -15,11 +16,11 @@ const PanelNav = () => {
       </div>
 
       <div className={NavStyle.links}>
-        <Link to="/admin/dashboard" className={NavStyle.a + ' ' + NavStyle.current}>Dashboard</Link>
-        <Link to="/admin/orders" className={NavStyle.a}>Orders</Link>
-        <Link to="/admin/categories" className={NavStyle.a}>Categories</Link>
-        <Link to="/admin/products" className={NavStyle.a}>Products</Link>
-        <Link to="/admin/accounts" className={NavStyle.a}>Accounts</Link>
+        <NavLink to="/admin/dashboard" activeClassName={NavStyle.isActive} className={NavStyle.a}>Dashboard</NavLink>
+        <NavLink to="/admin/orders" activeClassName={NavStyle.isActive} className={NavStyle.a}>Orders</NavLink>
+        <NavLink to="/admin/categories" activeClassName={NavStyle.isActive} className={NavStyle.a}>Categories</NavLink>
+        <NavLink to="/admin/products" activeClassName={NavStyle.isActive} className={NavStyle.a}>Products</NavLink>
+        <NavLink to="/admin/accounts" activeClassName={NavStyle.isActive} className={NavStyle.a}>Accounts</NavLink>
       </div>
 
       <div className= {NavStyle.menu}>

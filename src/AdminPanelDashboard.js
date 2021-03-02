@@ -3,6 +3,7 @@ import Nav from './components/micro-components/PanelNav'
 import DashboardStyles from './AdminPanelDashboard.module.css'
 import LSide from './components/micro-components/SideBarLeft'
 import RSide from './components/micro-components/SideBarRight'
+import Head from './components/micro-components/DashHead'
 
 const AdminPanelDashboard = () => {
   return (
@@ -13,17 +14,16 @@ const AdminPanelDashboard = () => {
          <LSide/>
        </div>
        {/* This part is the center of the console consists of cards and the navbar */}
-       <div className={DashboardStyles.center}>
+       <div className={DashboardStyles.center} current={'dashboard'}>
          <Nav/>
+         <Head page={'Dashboard'} logo={'dashboard'} text={'Widget'}/>
        </div>
 
         {/* This is the left bar which is consists of navigation tools and many more. */}
        <div className={DashboardStyles.rightBar}>
         <RSide/>
        </div>
-     </div>
-
-    
+     </div>   
    );
 }
  

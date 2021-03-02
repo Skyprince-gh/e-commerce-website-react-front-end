@@ -5,22 +5,36 @@
   border-radius: 25px;
   box-shadow: 1px 1px 2px var(--shadow);  
   display: flex;
+  justify-content: space-between;
 }
 
-.button{
-  background: transparent;
-  border: none;
-  display: inline-block;
-  position: relative;
-  left: 10px;
-  outline:none;
-  /* font-size: px */
-}
-
-.input{
+.searchBox input{
+  display: flex;
+  width: 80%;
+  height: 100%;
   background: transparent;
   border: none;
   display: inline-block;  
   outline: none;
   padding-left: 20px;
+}
+
+.button{
+  background: transparent;
+  border: none;
+  display: flex;
+  /* position: relative;
+  left: 10px; */
+  outline:none;
+  font-size: 10px;
+  width: 20%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* font-size: px */
+}
+
+.button *{
+  font-size: 16px;
+  color: var(--black);
 }

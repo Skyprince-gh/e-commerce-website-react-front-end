@@ -4,7 +4,7 @@ import {
   AccountCircle,ShoppingBasket, RestaurantMenu, 
   BarChart, Settings
 } from '@material-ui/icons'
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 const SideBarLeft = () => {
   return ( 
   <div className={LSBStyles.grid}>
@@ -13,14 +13,14 @@ const SideBarLeft = () => {
     </div>
 
     <div className={LSBStyles.nav}>    
-      <Link to='/admin/dashboard'> <Dashboard className={LSBStyles.current}/> </Link>
-      <Link to='/admin/orders'> <Assignment/> </Link>
-      <Link to='/admin/categories'> <Apps/> </Link>
-      <Link to='/admin/products'> <ShoppingBasket/> </Link>
-      <Link to='/admin/accounts'> <AccountCircle/> </Link>
-      <Link to='/admin/restaurants'> <RestaurantMenu/> </Link>
-      <Link to='/admin/stats'> <BarChart/> </Link>
-      <Link to='/admin/settings'> <Settings/> </Link>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/dashboard'> <Dashboard/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/orders'> <Assignment/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/categories'> <Apps/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/products'> <ShoppingBasket/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/accounts'> <AccountCircle/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/restaurants'> <RestaurantMenu/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/stats'> <BarChart/> </NavLink>
+      <NavLink activeClassName={LSBStyles.isActive} to='/admin/settings'> <Settings/> </NavLink>
     </div>
 
   </div> );

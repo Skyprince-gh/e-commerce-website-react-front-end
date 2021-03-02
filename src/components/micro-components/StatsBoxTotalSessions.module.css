@@ -5,6 +5,7 @@
   box-shadow: 1px 1px 2px var(--shadow);
   border-radius: 10px;
   border: var(--border);
+  user-select: none;
 }
 .upper{
   height: 70%;

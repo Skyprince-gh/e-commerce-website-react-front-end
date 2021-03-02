@@ -50,6 +50,11 @@
   user-select: none;
 }
 
-.current{
+.a:hover{
+  color: var(--pink)
+}
+
+.isActive{
  color: var(--red);
+ text-decoration: none;
 }
