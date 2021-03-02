@@ -1,7 +1,8 @@
 .grid{
   display: flex;
   width: 100vw;
-  height: 100vH;
+  height: 100vh;
+  overflow-y: hidden ;
 }
 
 .rightBar{

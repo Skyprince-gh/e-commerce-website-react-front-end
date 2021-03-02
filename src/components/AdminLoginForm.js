@@ -8,7 +8,7 @@ const AdminLoginForm = () => {
   
   const handleSignIn = (e) => {
     e.preventDefault()
-    history.push('/admin-panel')
+    history.push('/admin/dashboard')
   }
 
   return (

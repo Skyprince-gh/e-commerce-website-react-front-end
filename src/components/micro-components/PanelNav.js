@@ -15,7 +15,7 @@ const PanelNav = () => {
       </div>
 
       <div className={NavStyle.links}>
-        <Link to="/admin/dashboard" className={NavStyle.a}>Dashboard</Link>
+        <Link to="/admin/dashboard" className={NavStyle.a + ' ' + NavStyle.current}>Dashboard</Link>
         <Link to="/admin/orders" className={NavStyle.a}>Orders</Link>
         <Link to="/admin/categories" className={NavStyle.a}>Categories</Link>
         <Link to="/admin/products" className={NavStyle.a}>Products</Link>

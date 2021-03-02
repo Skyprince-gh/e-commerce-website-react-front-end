@@ -2,6 +2,7 @@
 import Nav from './components/micro-components/PanelNav'
 import DashboardStyles from './AdminPanelDashboard.module.css'
 import LSide from './components/micro-components/SideBarLeft'
+import RSide from './components/micro-components/SideBarRight'
 
 const AdminPanelDashboard = () => {
   return (
@@ -17,8 +18,8 @@ const AdminPanelDashboard = () => {
        </div>
 
         {/* This is the left bar which is consists of navigation tools and many more. */}
-       <div className={DashboardStyles.leftBar}>
-        
+       <div className={DashboardStyles.rightBar}>
+        <RSide/>
        </div>
      </div>
 

@@ -5,8 +5,10 @@
   --pink2: #ff6c6c;
   --brown: #a26363;
   --black: #242424;
+  --green: #24e637;
   --shadow: rgba(0,0,0,0.2);
   --faded-txt-bkg-black: rgba(64, 64, 64,.4);
+  --border: 1px solid var(--red);
   --hlg-red: linear-gradient(
     to right, 
     var(--red),
