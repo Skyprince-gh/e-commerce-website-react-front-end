@@ -4,7 +4,7 @@ import {
   AccountCircle,ShoppingBasket, RestaurantMenu, 
   BarChart, Settings
 } from '@material-ui/icons'
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 const SideBarLeft = () => {
   return ( 
   <div className={LSBStyles.grid}>

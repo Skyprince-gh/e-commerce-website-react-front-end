@@ -3,7 +3,7 @@ import {Search} from '@material-ui/icons';
 
 const SearchBox = () => {
   return ( 
-  <form onSubmit= {''} className={SearchBoxStyles.searchBox}>
+  <form className={SearchBoxStyles.searchBox}>
     <input className={SearchBoxStyles.input} placeholder="search" type="text" required/> 
     <button className={SearchBoxStyles.button} type="submit">
       <Search/>

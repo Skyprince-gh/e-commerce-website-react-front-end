@@ -1,6 +1,6 @@
 import NavStyle from './PanelNav.module.css';
 import SearchBox from './SearchBox'
-import {Link , NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import GridIcon from '@material-ui/icons/Apps'
 
 const PanelNav = () => {

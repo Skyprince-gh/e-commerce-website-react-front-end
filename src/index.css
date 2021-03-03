@@ -7,9 +7,12 @@
   --brown: #a26363;
   --black: #242424;
   --green: #24e637;
-  --shadow: rgba(0,0,0,0.2);
+  --grey: #808080;
+  --shadow: rgba(0,0,0,0.2) 1px 1px 2px;
+  --shadow2: rgba(0,0,0,0.2) 5px 5px 15px;
   --faded-txt-bkg-black: rgba(64, 64, 64,.4);
   --border: 1px solid var(--red);
+  --border-thin: 0.5px solid var(--red);
   --hlg-red: linear-gradient(
     to right, 
     var(--red),
