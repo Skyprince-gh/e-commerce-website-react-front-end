@@ -1,0 +1,21 @@
+.grid{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden ;
+}
+
+.rightBar{
+  width: 15%;
+  height: 100vh;
+}
+
+.leftBar{
+  width: 5%;
+  height: 100vh
+}
+
+.center{
+  width: 80%;
+  height: 100vh;
+}

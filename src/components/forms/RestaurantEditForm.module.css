@@ -1,0 +1,80 @@
+.grid{
+  width: 100vw;
+  height: 100vh;
+  background: var(--cover);
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid h3{
+  margin: 20px 0px;
+  font-size: 2rem;
+}
+
+.grid form {
+  width: 50%;
+  height: 70%;
+  border: var(--border);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--shadow);
+  background: var(--white);
+  padding: 20px;
+}
+
+.grid input, .grid select {
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
+  margin: 10px 0px;
+  border-radius: 25px;
+  padding-left: 30px;
+  border: var(--border);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  font-size: 22px;
+  color: var(--grey)
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 100px;
+  height: 40px;
+  margin: 30px;
+  background: var(--pink);
+  border: var(--border);
+  border-radius: 5px; 
+  color: var(--brown)
+}
+.file{
+  margin: 20px 0px;
+  width: 80%;
+}
+.file input[type="file"]{
+  appearance: none;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0%;
+}
+
+.file label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--pink);
+  color: var(--brown)
+}

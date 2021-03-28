@@ -1,0 +1,112 @@
+.adminLogin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background: var(--hlg-red)
+}
+
+.form{
+  background: linear-gradient();
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(
+    to bottom right, 
+    rgba(200, 200, 200,0.85),
+    rgba(200, 200, 200,0.5)
+    );
+  backdrop-filter: blur(20);
+
+  border-radius: 30px;
+  position: relative;
+  bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.form h1{
+  font-size: 2rem;
+  font-weight: bold;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--black)
+}
+
+.form p{
+  font-size: 0.8rem;
+  font-weight: bold;
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.form p a{
+  font-size: inherit;
+  color: var(--brown);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.form input {
+  color: var(--black);
+  background: var(--faded-txt-bkg-black);
+  border: none;
+  width: 70%;
+  height: 50px;
+  margin: 20px 0px;
+  outline: none;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.inputGroup{
+  width: 70%;
+  display: flex;
+  height: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+}
+
+.inputGroup input[type='checkbox']{
+  width: 24px;
+  height: 24px;
+  background: var(--faded-txt-bkg-black);
+  -webkit-background: red;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  display: inline-block;
+}
+
+.inputGroup span{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.form input[type="submit"]{
+    width: 200px;
+    background: var(--brown);
+    opacity: 90%;
+    backdrop-filter: blur;
+}
+
+
+
+
+
+

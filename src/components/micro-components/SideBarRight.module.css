@@ -1,0 +1,13 @@
+.grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 1px solid var(--red);
+  height: 100vh;
+  width: 100%;
+  /* overflow-y: scroll; */
+  scroll-behavior: auto;
+}
+
+

@@ -1,0 +1,61 @@
+.box{
+  width: 70%;
+  height: 120px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  border: var(--border);
+  user-select: none;
+}
+.upper{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  /* background:red; */
+}
+
+.upper h3, .upper p{
+  color: var(--red);
+  font-size: 0.6rem;
+  margin: 5px auto;
+  font-weight: bold;
+}
+.Uleft, .URight{
+  /* background: blue; */
+  width: 50%;
+  height: 100%;
+  font-size: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  font-size: 0.6rem !important;
+}
+
+.lower a{
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--red)
+}
+
+.lRight, .lLeft{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: var(--red)
+} 
+/* .lLeft{
+  width: 50%;
+  height: 100%;
+} */

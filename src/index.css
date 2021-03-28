@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+:root{
+  --white: #fff;
+  --red: #ff2424;
+  --pink: #ffa6a6;
+  --pink2: #ff6c6c;
+  --brown: #a26363;
+  --black: #242424;
+  --green: #24e637;
+  --grey: #808080;
+  --shadow: rgba(0,0,0,0.2) 1px 1px 2px;
+  --shadow2: rgba(0,0,0,0.2) 5px 5px 15px;
+  --faded-txt-bkg-black: rgba(64, 64, 64,.4);
+  --cover: rgba(0,0,0, 0.8);
+  --border: 1px solid var(--red);
+  --border-thin: 0.5px solid var(--red);
+  --hlg-red: linear-gradient(
+    to right, 
+    var(--red),
+    var(--pink2),
+    var(--pink2),
+    var(--red)
+    );
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+

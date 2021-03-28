@@ -1,0 +1,64 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+  width: 200px;
+  height: 200px;
+  border: var(--border);
+  margin: 0 10px 20px 10px;
+  border-radius: 30px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: var(--border);
+  height: 20%;
+  width: 100%;
+}
+
+.circle{
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  border: var(--border-thin)
+}
+
+.cardMenu{
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--grey);
+}
+
+.cardMenu:hover{
+  color: var(--pink);
+}
+
+.userImage{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.icon{
+  font-size: 75px;
+}
+
+.userName{
+  width: 100%;
+  text-align: center;
+}

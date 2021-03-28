@@ -1,0 +1,56 @@
+.box{
+  width: 70%;
+  height: 200px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  border: var(--border);
+}
+
+.upper{
+  display: flex;
+  height: 20%;
+  font-size: 0.6rem
+}
+
+.upper span{
+  font-size: 0.6rem;;
+}
+
+.left{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.left span{
+  display: inline-block;
+  width: 50%;
+  margin: 5px;
+  user-select: none;
+  font-weight: bold;
+  color: var(--red)
+}
+
+.left span:hover{
+  color: var(--brown)
+}
+
+.right{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right span{
+  font-size: 20px;
+  margin-right:10px;
+  user-select: none;
+  font-weight: bolder;
+  color: var(--black);
+}
+
+.right span:hover{
+  color: var(--red)
+}

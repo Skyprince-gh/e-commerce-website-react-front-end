@@ -1,0 +1,18 @@
+.grid{
+  display: flex;
+  height: 30px;
+  width: 250px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  right: 200px;
+  color: var(--white);
+  background: var(--black);
+  border-radius: 5px;
+}
+
+.grid p{
+  font-size: 10px;
+}
